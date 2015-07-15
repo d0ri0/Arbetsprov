@@ -1,22 +1,13 @@
 #Arbetsprov
 
-* Forka detta repo
-* Skapa en Feature branch
-* Implementera en enkel sökfunktion i enlighet med den bifogade pdf:en 
-* Sökningen skall ske mot ett valfritt publikt REST-api (vilket som helst på hela nätet) med javascript
-* Sök på titel, visa titel (eller motsvarande)
-* Visa partiella sökresultat i en lista under sökrutan
-* När man trycker på [ENTER] skall det som är valt sparas med datum/tidsstämpel under rutan.
-* Minskar man storlek på fönstret skall innehållet anpassa sig till fönstrets bredd.
-* När man laddar om sidan skall inget sparas.
+* Skrivet i HTML / JS / CSS. M.h.a. Bootstrap (http://getbootstrap.com/) & jQuery (https://jquery.com/)
+* Kopplat till GitHub API:et (https://developer.github.com/v3/)
 
-Vad vi kollar på:
+Instruktioner:
 
-* Hur är CSS/JS skrivet?
-* Hur är det paketerat
-* Allmän sanity check på strukturen.
-* Finns en readme och räcker den för köra igång din lösning?
-
-Lös uppgiften så långt du anser är befogat.
-
-När du är klar kan du pusha din branch och meddela oss att det är klart, t ex genom en pull request.
+* Skriv in ett sökort som kan tänkas vara ett projekt liggandes på GitHub. Använd annars något av de bifogade exempelorden på sajten.
+* Vänta ca 1000ms på att en lista under sökfältet fylls i.
+* Klicka på en rad med musen för att markera den.
+* Tryck på ENTER tangenten på ditt fysiska tangentbord.
+* En ny lista längst ned på sidan ska nu vara synlig.
+* Tryck på "x" ikonen på höger sida av sökfältet för att rensa resultatet.

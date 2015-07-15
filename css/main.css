@@ -1,0 +1,41 @@
+.header {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 30px;
+}
+table#searchResults {
+	margin-top: 5px;
+}
+table#searchResults > tbody > tr:first-child td {
+	border-top: 0;
+}
+.clearable {
+	background: #fff url(data:image/gif;base64,R0lGODlhBwAHAIAAAP///5KSkiH5BAAAAAAALAAAAAAHAAcAAAIMTICmsGrIXnLxuDMLADs=) no-repeat right -10px center;
+	transition: background 0.4s;
+}
+/* Hide the X icon on Internet Explorer */
+.clearable::-ms-clear {
+    display: none;
+}
+
+.clearable.x {
+	background-position: right 10px center;
+}
+
+.clearable.onX {
+	cursor: pointer;
+}
+
+.spin {
+	animation: spin 1000ms infinite linear;
+}
+@keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
